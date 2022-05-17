@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+    </head>
+  <div id="container">
+    <body>
+      <nav id="nav">
+        <div id="nav_box" class="container">
+          <div>
+            <a href="https://tuanmai96-code50-103009865-7v4p54x662xj5j-8080.githubpreview.dev/index.html" style="text-decoration:none; color:inherit;">
+            <img class="logo" src="https://www.nicepng.com/png/detail/25-253768_vector-library-library-the-database-photo-block-pepe.png" alt="pepetrade_logo">
+            <span class="name">PepeTrade</span>
+            </a>
+          </div>
+          <ul>
+            <li><a href="https://tuanmai96-code50-103009865-7v4p54x662xj5j-8080.githubpreview.dev/invest.html">Invest</a></li>
+            <li><a href="https://tuanmai96-code50-103009865-7v4p54x662xj5j-8080.githubpreview.dev/crypto.html">Crypto</a></li>
+            <li><a href="https://tuanmai96-code50-103009865-7v4p54x662xj5j-8080.githubpreview.dev/learn.html">Learn</a></li>
+            <li><a href="https://tuanmai96-code50-103009865-7v4p54x662xj5j-8080.githubpreview.dev/about.html">About</a></li>
+          </ul>
+          <div class="buttons">
+            <button type="button" class="log_in_btn" onclick="visitPage();">Log in</button>
+            <button type="button" class="sign_up_btn" onclick="visitPage();">Get rich</button>
+          </div>
+        </div>
+      </nav>
+      <div id="mobile_nav">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4">
+            <h5 class="text-white h4">
+              <ul>
+                <li><a href="https://tuanmai96-code50-103009865-7v4p54x662xj5j-8080.githubpreview.dev/invest.html">Invest</a></li>
+                <li><a href="https://tuanmai96-code50-103009865-7v4p54x662xj5j-8080.githubpreview.dev/crypto.html">Crypto</a></li>
+                <li><a href="https://tuanmai96-code50-103009865-7v4p54x662xj5j-8080.githubpreview.dev/learn.html">Learn</a></li>
+                <li><a href="https://tuanmai96-code50-103009865-7v4p54x662xj5j-8080.githubpreview.dev/about.html">About</a></li>
+              </ul>
+            </h5>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </nav>
+      </div>
+
+      <div id="pepemoney_box" class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="https://c.tenor.com/Xq6Ij1fSSqMAAAAd/pepe-money.gif" class="pepemoney" alt="pepemoney" loading="lazy">
+          </div>
+          <div id="pepemoney_text" class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">Treat your money right</h1>
+            <p class="lead">We offer better rates than our competitors</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="sign_up_btn" onclick="visitPage();">Get rich</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+        <div class="col-md-5 p-lg-5 mx-auto my-5">
+          <h1 class="display-4 fw-normal"><b>Grow your money</b></h1>
+          <p class="lead fw-normal">Commission-free trading. Fast and Secure.</p>
+        </div>
+        <div class="product-device shadow-sm d-none d-md-block"></div>
+        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+      </div>
+
+      <div class="container px-4 py-5" id="custom-cards">
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('https://i.ibb.co/19WFcbg/pepestocks.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">PepeTrade Invest</h2>
+                <button type="button" class="learn_more" onclick="visitInvest();">Learn more</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('https://image.cnbcfm.com/api/v1/image/107025604-1646426761579-gettyimages-1299388483-yn_dogecoinillustration_008.jpeg?v=1646426801&w=1600&h=900');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">PepeTrade Crypto</h2>
+                <button type="button" class="learn_more" onclick="visitCrypto();">Learn more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="sign_up_box" class="container col-xl-10 col-xxl-8 px-4 py-5 ">
+        <div class="row align-items-center g-lg-5 py-5">
+          <div id="pepeclub_container" class="col-lg-7 text-lg-start">
+            <h1 id="pepeclub_text" class="display-4 fw-bold lh-1 mb-3">Join the club</h1>
+            <div id="pepeclub" class="col-10 col-sm-8 col-lg-6">
+              <img src="https://i.imgflip.com/4/5ncgcz.jpg" class="pepeclub_img" alt="pepeclub">
+            </div>
+          </div>
+          <div class="col-md-10 mx-auto col-lg-5">
+            <form class="p-4 p-md-5 rounded-3 bg-light">
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput"><b>Email address</b></label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword"><b>Password</b></label>
+              </div>
+              <div class="checkbox mb-3">
+                <label>
+                  <input type="checkbox" value="tips"> Send me investing tips.
+                </label>
+              </div>
+              <button id="sign_up_btn2" class="w-100 btn btn-lg btn-primary" type="submit">Get rich</button>
+              <hr class="my-4">
+              <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div id="footer">
+        <div id="footer_box" class="container">
+          <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-muted">&copy; 2022 PepeTrade, Inc</p>
+
+            <a href="https://tuanmai96-code50-103009865-7v4p54x662xj5j-8080.githubpreview.dev/index.html" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+              <img class="logo_footer" src="https://www.nicepng.com/png/detail/25-253768_vector-library-library-the-database-photo-block-pepe.png" width="40" height="40" alt="pepetrade_logo">
+            </a>
+
+            <ul class="nav col-md-4 justify-content-end">
+              <li class="nav-item"><a href="https://tuanmai96-code50-103009865-7v4p54x662xj5j-8080.githubpreview.dev/invest.html" class="nav-link px-2 text-muted">Invest</a></li>
+              <li class="nav-item"><a href="https://tuanmai96-code50-103009865-7v4p54x662xj5j-8080.githubpreview.dev/crypto.html" class="nav-link px-2 text-muted">Crypto</a></li>
+              <li class="nav-item"><a href="https://tuanmai96-code50-103009865-7v4p54x662xj5j-8080.githubpreview.dev/learn.html" class="nav-link px-2 text-muted">Learn</a></li>
+              <li class="nav-item"><a href="https://tuanmai96-code50-103009865-7v4p54x662xj5j-8080.githubpreview.dev/about.html" class="nav-link px-2 text-muted">About</a></li>
+            </ul>
+          </footer>
+        </div>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      <script>
+        function visitPage(){
+            window.location='https://www.wealthsimple.com/en-ca';
+        }
+
+        function visitInvest(){
+            window.location='https://tuanmai96-code50-103009865-7v4p54x662xj5j-8080.githubpreview.dev/invest.html';
+        }
+
+        function visitCrypto(){
+            window.location='https://tuanmai96-code50-103009865-7v4p54x662xj5j-8080.githubpreview.dev/crypto.html';
+        }
+      </script>
+
+    </body>
+  </div>
+</html>
